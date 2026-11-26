@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class soundtrigger : MonoBehaviour
+public class Soundtrigger : MonoBehaviour
 {
     public Collider player;
     public AudioSource audiosource;
@@ -8,18 +8,16 @@ public class soundtrigger : MonoBehaviour
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("player")) ;
+        if (other.CompareTag("player"))
         {
-            
+            ;
         }
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        {
+
+        }
+
     }
 }
