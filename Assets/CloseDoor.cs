@@ -15,10 +15,10 @@ public class CloseDoor : MonoBehaviour
             Debug.Log("Close the door");
             myDoor.SetBool("Open", false);
         }
+
+
     }
-
 }
-
 
 
 

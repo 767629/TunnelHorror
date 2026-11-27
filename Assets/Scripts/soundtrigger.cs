@@ -12,7 +12,9 @@ public class Soundtrigger : MonoBehaviour
     {
         if (other.CompareTag("player"))
         {
-            ;
+            audiosource.clip = audioclip;
+            audiosource.Play();
+
         }
 
         {
